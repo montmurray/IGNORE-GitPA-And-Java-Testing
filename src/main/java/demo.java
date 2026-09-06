@@ -7,7 +7,7 @@ public class demo {
         String op = myStudent.toString();
         System.out.println(op);
     }
-    private void parts(){
+    private void p(){
         int x = 5;
         float y = 7.0f;
         double z = 3.5;
