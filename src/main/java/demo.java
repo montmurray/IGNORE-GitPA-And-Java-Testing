@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class demo {
-
+//lord this is a mess.
     public static void main(String[] args){
         Student myStudent = new Student("craig", 17, "69");
         String op = myStudent.toString();
