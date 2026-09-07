@@ -14,8 +14,16 @@ public class DEMOP2 {
         System.out.println("Hello " + name + ". Nice to know you're literate.");
         System.out.println("But are you mathematical? Give me a number.");
 
-        int n = s.nextInt();
-        System.out.println(n + "? Great choice. I like you.");
+        Object n = s.nextInt();
+        while (s.hasNext()) {
+          if (n instanceof Integer) {
+                System.out.println(n + "? Great choice. I like you.");
+              } else if (n instanceof Double) {
+                System.out.println(n + "? Woah, you're better than I thought. You've got some knowledge");
+              } else {
+                System.out.println("That's not a number, don't mess up this time.");
+              }
+        }
         //no, I am not using a logpoint.
         //Java is just Diet Swift woah.
 
