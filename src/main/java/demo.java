@@ -20,11 +20,10 @@ public class demo {
 
     }
     protected void dickandballs(){
-
+        String why = "Why did you call it that??";
     }
 
-    public void regularguy(){
-
+    public void regularguy() {
+        int v = 6;
     }
-
 }
