@@ -14,7 +14,7 @@ public class DEMOP2 {
         System.out.println("Hello " + name + ". Nice to know you're literate.");
         System.out.println("But are you mathematical? Give me a number.");
 
-        Object n = s.nextInt();
+        Object n = s.next();
         while (s.hasNext()) {
           if (n instanceof Integer) {
                 System.out.println(n + "? Great choice. I like you.");
