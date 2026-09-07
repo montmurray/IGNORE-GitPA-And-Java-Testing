@@ -36,3 +36,5 @@ public class DEMOP2 {
     System.out.println("Oh look, the programmer figured it out. Bare minimum yay.");
   }
 }
+//I learned Swift in senior year of HS, found out Swift is just Diet Java.
+//Stop telling me to write a logpoint for sys.out I don't want to.
