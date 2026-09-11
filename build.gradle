@@ -19,7 +19,7 @@ test {
     useJUnitPlatform()
 }
 
-def register = task.register('penis'){
+tasks.register('penis'){
     doFirst{
         println('FUCKING KILL YOURSELF')
     } doLast {
