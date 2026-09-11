@@ -18,3 +18,12 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+def register = task.register('penis'){
+    doFirst{
+        println('FUCKING KILL YOURSELF')
+    } doLast {
+        println('yay you did it!!!')
+    }
+}
+register
